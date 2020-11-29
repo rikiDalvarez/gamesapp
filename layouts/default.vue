@@ -1,13 +1,24 @@
 <template>
   <div>
+    <Navigation></Navigation>
     <Nuxt />
   </div>
 </template>
+<script>
+import Navigation from "@/components/Navigation"
+export default { 
+  components: {
+    Navigation
+  } 
+}
+</script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100;200&display=swap');
+
 html {
   font-family:
-    'Source Sans Pro',
+    'Texturina',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
