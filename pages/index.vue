@@ -28,7 +28,20 @@
 </template>
 
 <script>
-export default {}
+import Logo from "~/components/Logo"
+export default {
+  components: {
+    Logo
+  },
+  created() {
+    // games = response.data
+  },
+  data() {
+    return {
+
+    }
+  }
+}
 </script>
 
 <style>
